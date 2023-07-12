@@ -1,0 +1,40 @@
+Import necessary modules
+Initialize game settings, speed and size 
+Set colors 
+Initialize module aka pygame
+Set up game window
+Set up FPS (frames per second) controller
+Set snake position and body
+Set food position and spawn status to random 
+Set snake direction and user input
+Set score and timer
+Open high_score.txt file as read to read high score 
+	if file not found, high score set to 0 
+Create font object
+Open high_score.txt as write to save high score 
+Display game over screen 
+	display player score 
+	display time played 
+	display high score 
+	Show end game screen for seconds before quiting game 
+If score is higher than high score update high_score.txt file
+While game is playing 
+	Set up keys to control the snake 
+	Change snake direction based on user input on keys 
+	Move the snake postion based on keys 
+	Grow snake body if it collides with a food 
+	Regenerate the food after it has been eaten
+	Draw the snake and food on the game window
+	Set game over conditions
+		If it hits the end screen end game 
+		If it collides with it's own body end game 
+	Show score and time continuously
+	
+	
+
+
+	
+
+
+
+
